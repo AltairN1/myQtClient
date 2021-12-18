@@ -29,7 +29,6 @@ myClient::myClient(const QString& strHost, int nPort, QWidget* pwgt) :
     pvbxLayout->addWidget(m_ptxtInput);
     pvbxLayout->addWidget(pcmd);
     setLayout(pvbxLayout);
-    cout << "myClient";
 }
 
 void myClient::slotConnected(){
